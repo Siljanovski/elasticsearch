@@ -2,7 +2,7 @@
 cd /tmp;
 
 # Change the IP to the Logstash server 
-IP=148.251.181.22
+IP=0.0.0.0
 
 # getting the certificate
 scp $IP:/etc/pki/tls/certs/logstash-forwarder.crt /tmp
